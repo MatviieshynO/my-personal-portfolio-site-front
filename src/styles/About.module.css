@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  border-right: 1px solid black;
+  border-top: 5px solid #535353;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.title {
+  padding: 50px;
+}
+.container h2 {
+  margin-bottom: 25px;
+}
+.wrapper img {
+  border-radius: 20px;
+}

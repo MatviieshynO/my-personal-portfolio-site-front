@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #535353;
+  align-items: center;
+}
+.wrapper nav {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper nav a {
+  width: 70px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9f7f7;
+  text-decoration: none;
+  margin: 0px 149px 40px 148px;
+}
+
+.title {
+  margin-top: 50px;
+}
+.socialMedia {
+  margin-top: 120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.socialMedia a svg {
+  width: 30px;
+  height: 30px;
+  color: rgb(251, 249, 249);
+  margin: 5px;
+}
+
+.wrapper nav a:hover {
+  font-size: 19px;
+  transition: 0.5s;
+}
+.socialMedia a svg:hover {
+  box-shadow: 2px 2px 15px rgb(7, 6, 6);
+}

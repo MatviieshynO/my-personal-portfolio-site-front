@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  text-align: center;
+  flex-wrap: nowrap;
+  margin-bottom: 200px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+
+.skills div {
+  height: 111px;
+  width: 111px;
+}
+
+.skills div img:hover {
+  width: 110px;
+  height: 110px;
+  transition: 0.5s;
+}
+
+.title p {
+  margin-top: 26px;
+}
